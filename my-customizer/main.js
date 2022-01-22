@@ -1,7 +1,7 @@
 import Dictionary from "./Dictionary"
 import {Breakpoints} from './Breakpoints'
 
-const Customizer = (style) => {
+const customizer = (style) => {
 
     const dictionary = Dictionary;
     const breakPoints = Breakpoints
@@ -52,4 +52,4 @@ const Customizer = (style) => {
          
     return output
 }
-export default Customizer
+export default customizer
